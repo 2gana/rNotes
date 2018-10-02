@@ -11,4 +11,10 @@
 ## Quick start for dev
 
     npm install
+    gulp styles
+
+Then open the `index.html` file in the browser.
+
+If `gulp` is used without any arguments, it will watch for `scss` changes and automatically compile `css`.
+
     gulp
